@@ -24,27 +24,27 @@ public class Dice { //just need to put in images
     private static boolean barbRage;
 
     public static void Init(){
-        sixDie[0] = new ImageIcon("src/Images/d6_1.png").getImage();
-        sixDie[1] = new ImageIcon("src/Images/d6_2.png").getImage();
-        sixDie[2] = new ImageIcon("src/Images/d6_3.png").getImage();
-        sixDie[3] = new ImageIcon("src/Images/d6_4.png").getImage();
-        sixDie[4] = new ImageIcon("src/Images/d6_5.png").getImage();
-        sixDie[5] = new ImageIcon("src/Images/d6_6.png").getImage();
+        sixDie[0] = new ImageIcon("assets/Images/d6_1.png").getImage();
+        sixDie[1] = new ImageIcon("assets/Images/d6_2.png").getImage();
+        sixDie[2] = new ImageIcon("assets/Images/d6_3.png").getImage();
+        sixDie[3] = new ImageIcon("assets/Images/d6_4.png").getImage();
+        sixDie[4] = new ImageIcon("assets/Images/d6_5.png").getImage();
+        sixDie[5] = new ImageIcon("assets/Images/d6_6.png").getImage();
 
-        coin[0] = new ImageIcon("src/Images/coinHeads.png").getImage();
-        coin[1] = new ImageIcon("src/Images/coinTails.png").getImage();
+        coin[0] = new ImageIcon("assets/Images/coinHeads.png").getImage();
+        coin[1] = new ImageIcon("assets/Images/coinTails.png").getImage();
 
-        fourDie[0] = new ImageIcon("src/Images/d4_1.png").getImage();
-        fourDie[1] = new ImageIcon("src/Images/d4_2.png").getImage();
-        fourDie[2] = new ImageIcon("src/Images/d4_3.png").getImage();
-        fourDie[3] = new ImageIcon("src/Images/d4_4.png").getImage();
+        fourDie[0] = new ImageIcon("assets/Images/d4_1.png").getImage();
+        fourDie[1] = new ImageIcon("assets/Images/d4_2.png").getImage();
+        fourDie[2] = new ImageIcon("assets/Images/d4_3.png").getImage();
+        fourDie[3] = new ImageIcon("assets/Images/d4_4.png").getImage();
 
-        gifs[2] = new ImageIcon("src/Images/d6.GIF").getImage();
-        gifs[0] = new ImageIcon("src/Images/coin.GIF").getImage();
-        gifs[1] = new ImageIcon("src/Images/d4.GIF").getImage();
+        gifs[2] = new ImageIcon("assets/Images/d6.GIF").getImage();
+        gifs[0] = new ImageIcon("assets/Images/coin.GIF").getImage();
+        gifs[1] = new ImageIcon("assets/Images/d4.GIF").getImage();
 
-        rightBracket = new ImageIcon("src/Images/rightBracket.png").getImage();
-        leftBracket = new ImageIcon("src/Images/leftBracket.png").getImage();
+        rightBracket = new ImageIcon("assets/Images/rightBracket.png").getImage();
+        leftBracket = new ImageIcon("assets/Images/leftBracket.png").getImage();
     }
 
     public static int RollDie(int _numDie, int _sides, int _add) {

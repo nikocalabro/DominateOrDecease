@@ -28,74 +28,74 @@ public class Images {
     //this is where I will create all the images, this class will just focus on all of that
     //I am going to working on the logo and the UI now
     public static void Init(){
-        logo = Toolkit.getDefaultToolkit().getImage("src/Images/DominateOrDecease.PNG");
-        cobble = Toolkit.getDefaultToolkit().getImage("src/Images/CobbleWall.GIF");
-        START = Toolkit.getDefaultToolkit().getImage("src/Images/START.PNG");
-        Flame = Toolkit.getDefaultToolkit().getImage("src/Images/Flame.GIF");
-        numberOfPlayer= Toolkit.getDefaultToolkit().getImage("src/Images/NumberOfPlayers.PNG");
+        logo = Toolkit.getDefaultToolkit().getImage("assets/Images/DominateOrDecease.PNG");
+        cobble = Toolkit.getDefaultToolkit().getImage("assets/Images/CobbleWall.GIF");
+        START = Toolkit.getDefaultToolkit().getImage("assets/Images/START.PNG");
+        Flame = Toolkit.getDefaultToolkit().getImage("assets/Images/Flame.GIF");
+        numberOfPlayer= Toolkit.getDefaultToolkit().getImage("assets/Images/NumberOfPlayers.PNG");
         FlameYpos=Window.getYNormal(Window.getHeight2() / 6+5);
         flameSize=0.45;
-        rulesDorD= Toolkit.getDefaultToolkit().getImage("src/Images/rulesDorD.JPG");
-        pressR= Toolkit.getDefaultToolkit().getImage("src/Images/pressR.PNG");
-        winScreen= Toolkit.getDefaultToolkit().getImage("src/Images/winScreen.PNG");
-        spikeGrowth= Toolkit.getDefaultToolkit().getImage("src/Images/spikeGrowth.PNG");
-        cannon= Toolkit.getDefaultToolkit().getImage("src/Images/cannon.PNG");
-        brick= Toolkit.getDefaultToolkit().getImage("src/Images/brick.JPG");
-        attackHere= Toolkit.getDefaultToolkit().getImage("src/Images/attackHere.JPG");
+        rulesDorD= Toolkit.getDefaultToolkit().getImage("assets/Images/rulesDorD.JPG");
+        pressR= Toolkit.getDefaultToolkit().getImage("assets/Images/pressR.PNG");
+        winScreen= Toolkit.getDefaultToolkit().getImage("assets/Images/winScreen.PNG");
+        spikeGrowth= Toolkit.getDefaultToolkit().getImage("assets/Images/spikeGrowth.PNG");
+        cannon= Toolkit.getDefaultToolkit().getImage("assets/Images/cannon.PNG");
+        brick= Toolkit.getDefaultToolkit().getImage("assets/Images/brick.JPG");
+        attackHere= Toolkit.getDefaultToolkit().getImage("assets/Images/attackHere.JPG");
         
 
-        tokens[0] = Toolkit.getDefaultToolkit().getImage("src/Images/ArtificerUToken.PNG");
-        tokens[1] = Toolkit.getDefaultToolkit().getImage("src/Images/BarbarianUToken.PNG");
-        tokens[2] = Toolkit.getDefaultToolkit().getImage("src/Images/BardUToken.PNG");
-        tokens[3] = Toolkit.getDefaultToolkit().getImage("src/Images/ClericUToken.PNG");
-        tokens[4] = Toolkit.getDefaultToolkit().getImage("src/Images/DruidUToken.PNG");
-        tokens[5] = Toolkit.getDefaultToolkit().getImage("src/Images/MonkUToken.PNG");
-        tokens[6] = Toolkit.getDefaultToolkit().getImage("src/Images/RangerUToken.PNG");
-        tokens[7] = Toolkit.getDefaultToolkit().getImage("src/Images/RogueUToken.PNG");
-        tokens[8] = Toolkit.getDefaultToolkit().getImage("src/Images/WizardUToken.PNG");
+        tokens[0] = Toolkit.getDefaultToolkit().getImage("assets/Images/ArtificerUToken.PNG");
+        tokens[1] = Toolkit.getDefaultToolkit().getImage("assets/Images/BarbarianUToken.PNG");
+        tokens[2] = Toolkit.getDefaultToolkit().getImage("assets/Images/BardUToken.PNG");
+        tokens[3] = Toolkit.getDefaultToolkit().getImage("assets/Images/ClericUToken.PNG");
+        tokens[4] = Toolkit.getDefaultToolkit().getImage("assets/Images/DruidUToken.PNG");
+        tokens[5] = Toolkit.getDefaultToolkit().getImage("assets/Images/MonkUToken.PNG");
+        tokens[6] = Toolkit.getDefaultToolkit().getImage("assets/Images/RangerUToken.PNG");
+        tokens[7] = Toolkit.getDefaultToolkit().getImage("assets/Images/RogueUToken.PNG");
+        tokens[8] = Toolkit.getDefaultToolkit().getImage("assets/Images/WizardUToken.PNG");
 
-        supers[0] = Toolkit.getDefaultToolkit().getImage("src/Images/artificerSuper.JPG");
-        supers[1] = Toolkit.getDefaultToolkit().getImage("src/Images/barbarianSuper.JPG");
-        supers[2] = Toolkit.getDefaultToolkit().getImage("src/Images/bardSuper.JPG");
-        supers[3] = Toolkit.getDefaultToolkit().getImage("src/Images/clericSuper.JPG");
-        supers[4] = Toolkit.getDefaultToolkit().getImage("src/Images/druidSuper.JPG");
-        supers[5] = Toolkit.getDefaultToolkit().getImage("src/Images/monkSuper.JPG");
-        supers[6] = Toolkit.getDefaultToolkit().getImage("src/Images/rangerSuper.JPG");
-        supers[7] = Toolkit.getDefaultToolkit().getImage("src/Images/rogueSuper.JPG");
-        supers[8] = Toolkit.getDefaultToolkit().getImage("src/Images/wizardSuper.JPG");
+        supers[0] = Toolkit.getDefaultToolkit().getImage("assets/Images/artificerSuper.JPG");
+        supers[1] = Toolkit.getDefaultToolkit().getImage("assets/Images/barbarianSuper.JPG");
+        supers[2] = Toolkit.getDefaultToolkit().getImage("assets/Images/bardSuper.JPG");
+        supers[3] = Toolkit.getDefaultToolkit().getImage("assets/Images/clericSuper.JPG");
+        supers[4] = Toolkit.getDefaultToolkit().getImage("assets/Images/druidSuper.JPG");
+        supers[5] = Toolkit.getDefaultToolkit().getImage("assets/Images/monkSuper.JPG");
+        supers[6] = Toolkit.getDefaultToolkit().getImage("assets/Images/rangerSuper.JPG");
+        supers[7] = Toolkit.getDefaultToolkit().getImage("assets/Images/rogueSuper.JPG");
+        supers[8] = Toolkit.getDefaultToolkit().getImage("assets/Images/wizardSuper.JPG");
 
-        abilities[0]=Toolkit.getDefaultToolkit().getImage("src/Images/a_ArtificerAbility.JPG");
-        abilities[1]=Toolkit.getDefaultToolkit().getImage("src/Images/a_BarbarianAbility.JPG");
-        abilities[2]=Toolkit.getDefaultToolkit().getImage("src/Images/a_BardAbility.JPG");
-        abilities[3]=Toolkit.getDefaultToolkit().getImage("src/Images/a_ClericAbility.JPG");
-        abilities[4]=Toolkit.getDefaultToolkit().getImage("src/Images/a_DruidAbility.JPG");
-        abilities[5]=Toolkit.getDefaultToolkit().getImage("src/Images/a_MonkAbility.JPG");
-        abilities[6]=Toolkit.getDefaultToolkit().getImage("src/Images/a_RangerAbility.JPG");
-        abilities[7]=Toolkit.getDefaultToolkit().getImage("src/Images/a_RogueAbility.JPG");
-        abilities[8]=Toolkit.getDefaultToolkit().getImage("src/Images/a_WizardAbility.JPG");
+        abilities[0]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_ArtificerAbility.JPG");
+        abilities[1]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_BarbarianAbility.JPG");
+        abilities[2]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_BardAbility.JPG");
+        abilities[3]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_ClericAbility.JPG");
+        abilities[4]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_DruidAbility.JPG");
+        abilities[5]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_MonkAbility.JPG");
+        abilities[6]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_RangerAbility.JPG");
+        abilities[7]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_RogueAbility.JPG");
+        abilities[8]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_WizardAbility.JPG");
 
-        attacks[0]=Toolkit.getDefaultToolkit().getImage("src/Images/a_ArtificerAttack.JPG");
-        attacks[1]=Toolkit.getDefaultToolkit().getImage("src/Images/a_BarbarianAttack.JPG");
-        attacks[2]=Toolkit.getDefaultToolkit().getImage("src/Images/a_BardAttack.JPG");
-        attacks[3]=Toolkit.getDefaultToolkit().getImage("src/Images/a_ClericAttack.JPG");
-        attacks[4]=Toolkit.getDefaultToolkit().getImage("src/Images/a_DruidAttackBear.JPG");
-        attacks[5]=Toolkit.getDefaultToolkit().getImage("src/Images/a_MonkAttack.JPG");
-        attacks[6]=Toolkit.getDefaultToolkit().getImage("src/Images/a_RangerAttack.JPG");
-        attacks[7]=Toolkit.getDefaultToolkit().getImage("src/Images/a_RogueAttack.JPG");
-        attacks[8]=Toolkit.getDefaultToolkit().getImage("src/Images/a_WizardAttack.JPG");
-        attacks[9]=Toolkit.getDefaultToolkit().getImage("src/Images/a_DruidAttackEagle.JPG");
+        attacks[0]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_ArtificerAttack.JPG");
+        attacks[1]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_BarbarianAttack.JPG");
+        attacks[2]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_BardAttack.JPG");
+        attacks[3]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_ClericAttack.JPG");
+        attacks[4]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_DruidAttackBear.JPG");
+        attacks[5]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_MonkAttack.JPG");
+        attacks[6]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_RangerAttack.JPG");
+        attacks[7]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_RogueAttack.JPG");
+        attacks[8]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_WizardAttack.JPG");
+        attacks[9]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_DruidAttackEagle.JPG");
 
-        tiles[0]=Toolkit.getDefaultToolkit().getImage("src/Images/a_tile0.PNG");
-        tiles[1]=Toolkit.getDefaultToolkit().getImage("src/Images/a_tile1.PNG");
-        tiles[2]=Toolkit.getDefaultToolkit().getImage("src/Images/a_tile2.PNG");
-        tiles[3]=Toolkit.getDefaultToolkit().getImage("src/Images/a_tile3.PNG");
-        tiles[4]=Toolkit.getDefaultToolkit().getImage("src/Images/a_tile4.PNG");
-        tiles[5]=Toolkit.getDefaultToolkit().getImage("src/Images/a_tile5.PNG");
-        tiles[6]=Toolkit.getDefaultToolkit().getImage("src/Images/a_tile6 .PNG");
+        tiles[0]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_tile0.PNG");
+        tiles[1]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_tile1.PNG");
+        tiles[2]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_tile2.PNG");
+        tiles[3]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_tile3.PNG");
+        tiles[4]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_tile4.PNG");
+        tiles[5]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_tile5.PNG");
+        tiles[6]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_tile6 .PNG");
 
-        mute[0] = Toolkit.getDefaultToolkit().getImage("src/Images/muted.png"); //volume off
-        mute[1] = Toolkit.getDefaultToolkit().getImage("src/Images/unmuted.png"); // volume on
-        //supers[0]=Toolkit.getDefaultToolkit().getImage("src/Images/a_ArtificerAttack.JPG");
+        mute[0] = Toolkit.getDefaultToolkit().getImage("assets/Images/muted.png"); //volume off
+        mute[1] = Toolkit.getDefaultToolkit().getImage("assets/Images/unmuted.png"); // volume on
+        //supers[0]=Toolkit.getDefaultToolkit().getImage("assets/Images/a_ArtificerAttack.JPG");
     }
     public static void reset(){
         FlameYpos=Window.getYNormal(Window.getHeight2() / 6+5);

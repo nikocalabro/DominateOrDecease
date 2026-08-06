@@ -165,8 +165,8 @@ public class DominateOrDecease extends JFrame implements Runnable {
         g.setColor(Color.darkGray.darker());
         g.fillRect(0, 0, Window.xsize, Window.ysize);
 
-        int x[] = {Window.getX(0), Window.getX(Window.getWidth2()), Window.getX(Window.getWidth2()), Window.getX(0), Window.getX(0)};
-        int y[] = {Window.getY(0), Window.getY(0), Window.getY(Window.getHeight2()), Window.getY(Window.getHeight2()), Window.getY(0)};
+        int[] x = {Window.getX(0), Window.getX(Window.getWidth2()), Window.getX(Window.getWidth2()), Window.getX(0), Window.getX(0)};
+        int[] y = {Window.getY(0), Window.getY(0), Window.getY(Window.getHeight2()), Window.getY(Window.getHeight2()), Window.getY(0)};
 //fill border
         g.setColor(Color.darkGray);
         g.fillPolygon(x, y, 4);
@@ -197,7 +197,7 @@ public class DominateOrDecease extends JFrame implements Runnable {
             drawFillRect(g,Window.getWidth2()/2,infoYpos,0.0,1,1,(new Color(255,255,255,100)));
             g.setColor(Color.BLACK);
             g.setFont(new Font("Times New Roman", Font.PLAIN, 73));
-            g.drawString(""+currInfo,Window.getWidth2()/2-(currInfo.length()*15),infoYpos+25);
+            g.drawString(currInfo,Window.getWidth2()/2-(currInfo.length()*15),infoYpos+25);
         }
         if(MainMenu.getMenuPhase()>=2) {
             if(testing) {
@@ -271,9 +271,9 @@ public class DominateOrDecease extends JFrame implements Runnable {
             Images.Init();
             Sounds.InitSoundEffects();
             reset();
-            MenuSound = new Sounds("src/Songs/mainTitle.wav");
-            BoardSound = new Sounds ("src/Songs/Board.wav");
-            finaleSound = new Sounds("src/Songs/finale.wav");
+            MenuSound = new Sounds("assets/Songs/mainTitle.wav");
+            BoardSound = new Sounds ("assets/Songs/Board.wav");
+            finaleSound = new Sounds("assets/Songs/finale.wav");
             mute=false;
         }
         nextTurnTime--;
@@ -425,13 +425,13 @@ public class DominateOrDecease extends JFrame implements Runnable {
     }
     public static void ReInitSounds(){
         if (MenuSound.donePlaying && !MenuSound.stopPlaying) {
-            MenuSound = new Sounds("src/Songs/mainTitle.wav");
+            MenuSound = new Sounds("assets/Songs/mainTitle.wav");
         }
         if (BoardSound.donePlaying && !BoardSound.stopPlaying) {
-            BoardSound = new Sounds("src/Songs/Board.wav");
+            BoardSound = new Sounds("assets/Songs/Board.wav");
         }
         if (finaleSound.donePlaying && !finaleSound.stopPlaying){
-            finaleSound = new Sounds("src/Songs/finale.wav");
+            finaleSound = new Sounds("assets/Songs/finale.wav");
         }
     }
 
