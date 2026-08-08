@@ -44,6 +44,6 @@ Board is constructed of 7 uniquely designed tiles with different effects and wor
 
 ### Dice
 
-We made 3 different types of dice to accomodate 1d2, 2d2, 3d2, 1d4, 2d4, 3d4, 1d6, 2d6, ad 3d6. 
+We made 3 different types of dice to accomodate 1d2, 2d2, 3d2, 1d4, 2d4, 3d4, 1d6, 2d6, and 3d6. 
 
-![coin](assets/coin.gif) ![d4](assets/d4.gif) ![d6](assets/d6.gif)
+![coin](assets/Images/coin.gif) ![d4](assets/Images/d4.gif) ![d6](assets/Images/d6.gif)
