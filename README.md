@@ -24,7 +24,7 @@ be decided on who is the luckiest.
 ## Features
 ### Character Classes
 9 Character Classes making 27 unique voicelines.
-<br>
+
 ![Character Classes](screenshots/character_classes.png)
 
 ### Board
@@ -39,5 +39,11 @@ Board is constructed of 7 uniquely designed tiles with different effects and wor
   <li>Bottom Left: 75% to get the bottom left fourth of the orb.</li>
   <li>Bottom Right: 75% to get the bottom right fourth of the orb.</li>
 </ul>
-<br>
+
 ![Board](screenshots/board.png)
+
+### Dice
+
+We made 3 different types of dice to accomodate 1d2, 2d2, 3d2, 1d4, 2d4, 3d4, 1d6, 2d6, ad 3d6. 
+
+![coin](assets/coin.gif) ![d4](assets/d4.gif) ![d6](assets/d6.gif)
