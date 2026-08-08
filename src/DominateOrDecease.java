@@ -281,9 +281,6 @@ public class DominateOrDecease extends JFrame implements Runnable {
         if(Player.getNumPlayers()<=1)
             gameOver=true;
 
-            // what else needs to get done?            // what else needs to get done?
-
-
         if(!Dice.isRolling())
             CharacterClass.finalizeDamage();
         if(Player.getCurrentPlayer().getActionsLeft()<=0 && !Dice.isRolling()) {
