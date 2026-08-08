@@ -42,12 +42,13 @@ private static CharacterClass currentHoveredClass;
         g.setColor(Color.white);
         g.setFont(new Font("Times New Roman", Font.PLAIN, 30));
         if(Player.getPlayer(playerNum)!=null && Player.getPlayer(playerNum).getCharacterClass()!=null)
-            g.drawString(Player.getPlayer(playerNum).getCharacterClass().getName(),CharSelectX[6]+45,CharSelectY[6]-50);
+            g.drawString(Player.getPlayer(playerNum).getCharacterClass().getName(),CharSelectX[0]+50,CharSelectY[0]-38);
         else
-            g.drawString("Player #"+(playerNum+1),CharSelectX[6]+45,CharSelectY[6]-50);
+            g.drawString("Player #"+(playerNum+1),CharSelectX[0]+50,CharSelectY[0]-38);
         //g.drawString(Player.getPlayer(playerNum).getCharacterClass().getName(),CharSelectX[6]+45,CharSelectY[6]-50);
         for(int i=0;i<9;i++){
             //draw them
+//            g.drawString(String.valueOf(i),CharSelectX[i], CharSelectY[i]);
             drawCharacterBox(g, CharSelectX[i], CharSelectY[i], 0, 1, 1, Color.white,false,xchange,ychange, i,Player.getPlayer(playerNum));
         }
 
@@ -618,8 +619,21 @@ private static CharacterClass currentHoveredClass;
     }
     private static void updateSelectXandY(int startX,int startY){
         //where are the bounding boxes gonna be
-        CharSelectX=new int[]{startX,startX+CharSelectXchange,startX+2*CharSelectXchange,startX,startX+CharSelectXchange,startX+2*CharSelectXchange,startX,startX+CharSelectXchange,startX+2*CharSelectXchange};
-        CharSelectY=new int[]{startY+CharSelectYchange*2,startY+CharSelectYchange*2,startY+CharSelectYchange*2,startY+CharSelectYchange,startY+CharSelectYchange,startY+CharSelectYchange,startY,startY,startY};
+        int col1 = startX;
+        int col2 = startX+CharSelectXchange;
+        int col3 = startX+2*CharSelectXchange;
+        CharSelectX=new int[]{col1,col2,col3,
+                              col1,col2,col3,
+                              col1,col2,col3};
+        int row1 = startY;
+        int row2 = startY+CharSelectYchange;
+        int row3 = startY+2*CharSelectYchange;
+//        CharSelectY=new int[]{row3,row3,row3,
+//                              row2,row2,row2,
+//                              row1,row1,row1};
+        CharSelectY=new int[]{row1,row1,row1, //alphabetical top to bottom
+                              row2,row2,row2,
+                              row3,row3,row3};
     }
     public static void drawOval(Graphics2D g, int _xpos, int _ypos, double rot, double xscale, double yscale, Color color, boolean fill) {
         int ovalwidth = 100;
