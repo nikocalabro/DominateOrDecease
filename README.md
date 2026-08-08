@@ -23,6 +23,21 @@ be decided on who is the luckiest.
 
 ## Features
 ### Character Classes
-9 Character Classes making over 28 unique voicelines.
+9 Character Classes making 27 unique voicelines.
+<br>
 ![Character Classes](screenshots/character_classes.png)
 
+### Board
+
+Board is constructed of 7 uniquely designed tiles with different effects and working hexagonal bounding boxes.
+<ul>
+  <li>Top Left: 75% to get the top left fourth of the orb.</li>
+  <li>Top Right: 75% to get the top right fourth of the orb.</li>
+  <li>Middle Left: Do 1 more damage on your next attack this turn.</li>
+  <li>Middle Middle: Heal 3 health.</li>
+  <li>Middle Right: Take -1 damage from attacks this turn.</li>
+  <li>Bottom Left: 75% to get the bottom left fourth of the orb.</li>
+  <li>Bottom Right: 75% to get the bottom right fourth of the orb.</li>
+</ul>
+<br>
+![Board](screenshots/board.png)
