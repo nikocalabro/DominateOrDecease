@@ -1,4 +1,4 @@
-<h1 align="center">DominateOrDecease</h1>
+<h1 align="center">Dominate Or Decease</h1>
 
 <h2 align="center">
     <a href="https://github.com/LandonBisson">Landon Bisson</a> &nbsp&nbsp&nbsp
@@ -44,6 +44,71 @@ Board is constructed of 7 uniquely designed tiles with different effects and wor
 
 ### Dice
 
-We made 3 different types of dice to accomodate 1d2, 2d2, 3d2, 1d4, 2d4, 3d4, 1d6, 2d6, and 3d6. 
+We made 3 different types of dice to accomodate:
+<ul>
+  <li>1d2, 2d2, 3d2</li>
+  <li>1d4, 2d4, 3d4</li>
+  <li>1d6, 2d6, 3d6</li>
+</ul>
+Players can click the dice on their turn for a dice rolling (or coin flipping) animation, resulting in a random 
+combination of numbers. Each attack form each character rolls different dice and of different amounts.
 
 ![coin](assets/Images/coin.gif) ![d4](assets/Images/d4.gif) ![d6](assets/Images/d6.gif)
+
+### Rules
+
+Dominate Or Decease is an original game with an original and complex ruleset. 
+
+![Rules](assets/Images/rulesDorD.jpg)
+
+## Installation
+```bash
+git clone https://github.com/yourusername/connect4.git
+```
+
+## Repository Strucutre
+```
+DominateOrDecease/
+├───assets/
+│   ├───attackAbilitySuper/
+│   │   ├───artificer
+│   │   ├───barbarian
+│   │   ├───bard
+│   │   ├───cleric
+│   │   ├───druid
+│   │   ├───monk
+│   │   ├───ranger
+│   │   ├───rogue
+│   │   └───wizard
+│   ├───Images/
+│   └───Songs/
+├───screenshots/
+└───src/
+    │   Board.java
+    │   Cannon.java
+    │   Class.java
+    │   Dice.java
+    │   DominateOrDecease.java
+    │   Images.java
+    │   MainMenu.java
+    │   Mouse.java
+    │   Placeables.java
+    │   Player.java
+    │   Poison.java
+    │   Shield.java
+    │   Sounds.java
+    │   SpikeGrowth.java
+    │   Tile.java
+    │   Window.java
+    │   
+    └───CharacterClasses/
+            Artificer.java
+            Barbarian.java
+            Bard.java
+            Cleric.java
+            Druid.java
+            Monk.java
+            Ranger.java
+            Rogue.java
+            Wizard.java
+```
